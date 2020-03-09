@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fashion Classifier App</title>
+    <link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='css/result.css') }}" >
+  </head>
+
+  <body>
+
+    <header>
+      <div class="topnav">
+        <div class = "myHeader">
+          <a href = "/" class="active" href = "#"><b>Classifier:</b> Clothing</a>
+        </div>
+      </div>
+    </header>
+
+    <div class = "mycontent">
+      <form action = "/predict" method = "POST" enctype = "multipart/form-data">
+      </form>
+      <h1 class="inset-text">Your Image Was Classified As...</h1>
+      <div><p>{{pred_str}}</p></div>
+      <div class = "imageContainer">
+        <img id = "myPic" src="{{filename}}" alt="Oops! Image did not load">
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

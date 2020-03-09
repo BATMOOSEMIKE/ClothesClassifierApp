@@ -1,0 +1,104 @@
+.mycontent
+{
+  display: block;
+  text-align: center;
+  margin-top:10%:
+}
+
+
+body{
+  background-color:#add8e6
+}
+form
+{
+    display: inline-block;
+    margin-left: 0 auto;
+    margin-top: 10%;
+    margin-right: 0 auto;
+    text-align: center;
+}
+
+[type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+[type="file"] + label {
+  background: #FF4500;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	font-size: inherit;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 1rem 50px;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+}
+.file_button_container,
+.file_button_container input {
+  height: 75px;
+  width: 75px;
+}
+
+.file_button_container:hover{
+    filter: brightness(0.8);
+}
+
+.file_button_container {
+  background: url("/static/arrow.png") left top no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+  margin: 0 auto;
+}
+ .file_button_container input {
+     opacity: 0;
+ }
+
+.submitButton:hover{
+  filter:brightness(0.8);
+}
+
+.submitButton{
+  cursor: pointer;
+}
+
+label:hover{
+  filter: brightness(0.8);
+}
+
+a{
+  text-decoration:none;
+}
+
+.topnav{
+    background: #FF4500;
+    overflow:hidden;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.topnav a{
+    float: left;
+    color:white;
+    padding-left:20px;
+    padding-top:2%;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#output{
+  max-width: 200px;
+  min-width: 200px;
+}
