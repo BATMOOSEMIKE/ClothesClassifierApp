@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/static/branding/icon.jpg" width="256">
+  <img src="static/branding/logo.jpg" width="256">
 </p>
 
 ## What it does
@@ -20,25 +20,25 @@ To run this web app locally, after cloning our repository you will want to set u
 
 
 <p align="center">
-  <img src="/static/branding/screenshot1" width="720">
+  <img src="static/branding/screenshot1.png" width="720">
 </p>
 
 <p align="center">
-  <img src="/static/branding/screenshot2" width="720">
+  <img src="static/branding/screenshot2.png" width="720">
 </p>
 
 <p align="center">
-  <img src="/static/branding/screenshot3" width="720">
+  <img src="static/branding/screenshot3.png" width="720">
 </p>
 
 <p align="center">
-  <img src="/static/branding/screenshot4" width="720">
+  <img src="static/branding/screenshot4.png" width="720">
 </p>
 
 <p align="center">
-  <img src="/static/branding/screenshot5" width="720">
+  <img src="static/branding/screenshot5.png" width="720">
 </p>
 
 <p align="center">
-  <img src="/static/branding/screenshot6" width="720">
+  <img src="static/branding/screenshot6.png" width="720">
 </p>
